@@ -21,3 +21,7 @@ function draw() {
 
   angle += 0.1;
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
