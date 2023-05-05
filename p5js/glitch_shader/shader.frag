@@ -11,7 +11,7 @@ void main(){
     vec2 uv = vTexCoord;
     uv.y = 1.0 - uv.y;
 
-    vec2 offset = vec2(noise*0.03, 0.0); // offset in X direction
+    vec2 offset = vec2(noise*0.04, 0.0); // offset in X direction
 
     vec3 color;
     color.r = texture2D(texture, uv + offset).r;
