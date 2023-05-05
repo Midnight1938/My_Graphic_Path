@@ -1,0 +1,26 @@
+#+TITLE: Useful Info
+
+* GLSL
+#+BEGIN_SRC bash
+opi glslang-devel
+
+/usr/bin/glslangValidator -v
+#+END_SRC
+
+* Extension
++ Shader Language - Slevesque
++ glsl-canvas - CircleDev
++ GLSL Lint - DanielToplak
+    Will require the ~usr/bin/glslangValidator~ in its path
+* External
++ [[https:gist.github.com/lewislepton/8b17f56baa7f1790a70284e7520f9623][GLSL Snippets]]
++ GLSL Viewer
+#+BEGIN_SRC bash
+sudo zypper in ffmpeg-6 ncurses-devel libXi-devel libXxf86vm-devel libXrandr-devel libXinerama-devel libXcursor-devel libavcodec-devel libavfilter-devel libavdevice-devel libavformat-devel libavutil-devel libswscale-devel libv4l-devel libjpeg-devel libpng-devel libtiff-devel xorg-x11-devel Mesa-libGLU-devel ncurses-devel 
+
+# Then try
+sudo zypper in ffmpeg-6 ncurses-devel
+sudo zypper in libXi-devel libXxf86vm-devel libXrandr-devel libXinerama-devel libXcursor-devel
+sudo zypper install ffmpeg libavcodec-devel libavfilter-devel libavdevice-devel libavformat-devel libavutil-devel libswscale-devel libv4l-devel libjpeg-devel libpng-devel libtiff-devel
+sudo zypper install xorg-x11-devel Mesa-libGLU-devel ncurses-devel
+#+END_SRC
