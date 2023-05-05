@@ -1,2 +1,40 @@
 #+TITLE: Learning Graphic engines and shaders
 #+AUTHOR: Midnight1938
+
+* P5js
+** [[https:youtu.be/H81Tdrmz2LA][Cube Waves]]
+Using sine waves to create a cube that moves in a wave like pattern.
+
+** Perlin Noise
+*** [[https:youtu.be/BjoM9oKOAKY][Perlin Flow Fields]]
++ [[https:youtu.be/na7LuZsW2UM][Extra Reference]]
+Using 2D perlin noise to create a flow field that is used to move particles around the screen.
+
+*** TODO [[https:youtu.be/IKB1hWWedMk][Perlin Noise Terrain]]
+
+** TODO [[https:youtu.be/0jjeOYMjmDU][Recursive Fractal Tree]]
+Creating a fractal tree using recursion by using the same function inside itself.
+
+** [[https:youtu.be/r5YkU5Xu4_E][Glitch Shader]]
+Using a shader to create a glitch effect on a drawing.
+
+* Processing 5
+** [[https:youtu.be/QHEQuoIKgNE][Circle Packing]]
+A way to pack circles in a space without overlapping in a way that is pleasing to the eye.
+Using Processing 5 and the Circle Packing algorithm.
+- [[file:processing5/Animated Circles/circle_pack][circle pack]]
+- [[file:processing5/Animated Circles/circle_pack_txt/][circle pack text]]
+- [[file:processing5/Animated Circles/circle_pack_img/][circle pack images]]
+
+** [[github:whitegreen/GenerativeArt/tree/main/workshop%202019%2Fflow0906_Lishuaijie][Wishful Thinking]]
+A showcase by a chinese designer of using images with flow fields.
+
+* [[https:youtube.com/playlist?list=PL4neAtv21WOmIrTrkNO3xCyrxg4LKkrF7][Lewis Lepton]]
+A comprehensive guided tour of fractal shaders.
+
+
+* Sources / People
++ [[https:youtube.com/@TheCodingTrain][The Coding Train]]
++ [[https:youtube.com/@BarneyCodes][BarneyCodes]]
++ [[https:youtube.com/@LewisLepton][Lewis Lepton]]
++ [[https:youtube.com/@TheArtOfCode][The Art of Code]]
