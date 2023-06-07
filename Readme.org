@@ -34,7 +34,9 @@ A comprehensive guided tour of fractal shaders.
 
 
 * Sources / People
++ [[https://thebookofshaders.com][The Book of Shaders]]
 + [[https:youtube.com/@TheCodingTrain][The Coding Train]]
 + [[https:youtube.com/@BarneyCodes][BarneyCodes]]
 + [[https:youtube.com/@LewisLepton][Lewis Lepton]]
 + [[https:youtube.com/@TheArtOfCode][The Art of Code]]
++ [[https://www.youtube.com/@kishimisu][Kishimitsu]]
