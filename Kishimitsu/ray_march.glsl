@@ -34,11 +34,11 @@ float map(vec3 pos) { // Map of the space
   pos.z += iTime * .7; // Upward before repeting
 
   // Space Repition
-  pos.xy = (fract(pos.xy) - .5); // .5 spacing
+  pos.xy = (fract(pos.xy) - .5); // .5 spacing. Fract is what makes the one thing infinite
   pos.z = mod(pos.z, .25) - .199; // .125 spacing. Makes it a lil diamond-y
 
   pos.xy *= rot2D(iTime); // Rotating around Z. 
-  float box = sdOctahedron(pos, .15); // The division counteracts scaling factor
+  float box = sdOctahedron(pos, .15); // Octahedron
   
   // Closest dist to scene. With minimum distance function
   return box; // Smooth dist
