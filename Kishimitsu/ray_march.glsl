@@ -31,7 +31,7 @@ vec3 palette( float t ) {
 }
 
 float map(vec3 pos) { // Map of the space
-  pos.z += iTime * .7; // Upward before repeting
+  pos.z += iTime * .7; // Move before repeting
 
   // Space Repition
   pos.xy = (fract(pos.xy) - .5); // .5 spacing. Fract is what makes the one thing infinite
